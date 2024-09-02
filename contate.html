@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contate-me</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+<!--ADICIONANDO OS 4 LINKS DO SITE-->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">SOBRE MIM</a>
+            </li>
+            <li>
+                <a href="formação.html">FORMAÇÃO</a>
+            </li>
+            <li>
+                <a href="portifólio.html">PORTIFÓLIO</a>
+            </li>
+            <li>
+                <a href="contate.html">CONTATE-ME</a>
+            </li>
+        </ul>
+    </nav>
+<br>
+<!--APRESENTAÇÃO INICIAL DO SITE-->
+<header>
+    <div class="center">
+        <img src="img/jw.jpg" alt="imagem pessoal">
+        <h1 id="id-7"> JHONATHAN KASS</h1>
+    </div>
+</header>
+<br>
+<!--ADICINANDO FORMAS DE CONTATO E FORMULÁRIO-->
+<Main>
+    <section>
+        <div class="center">
+            <h2>Deseja entrar em contado?</h2>
+            <h3>Telefone: (77) 9 9831-2330</h3> 
+            <h3>E-mail: jhonathankass007@gmail.com</h3>
+        </div>
+<br>
+        <div class="center">
+            <h2>Entre em contato conosco:</h2>
+        <form action="/enviar_mensagem" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" placeholder="Coloque seu nome aqui"><br>
+            <label for="email">E-mail:</label><br>
+            <input type="email" name="email" placeholder="Coloque o seu e-mail aqui"><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea name="mensagem" rows="4" cols="50" placeholder="Me envie uma mensagem aqui"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+        </div>
+    </section>
+</Main>
+</body>
+</html>

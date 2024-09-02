@@ -1,0 +1,46 @@
+/*CUSTOMIZAÇÃO GERAL DA PÁGINA*/
+body{color: white;
+    background-color: black;
+    font-family:'Times New Roman', Times, serif; 
+    padding-left: 75px;
+    padding-right: 75px;
+    text-transform: uppercase;}
+
+/*AJUSTES PRINCIPAIS DOS LINKS*/
+ul{display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;}
+
+/*AJUSTES ADICIONAIS NO LINK*/
+a{color: white;
+    text-decoration: none;}
+
+/*AJUSTES DA IMAGEM NO SITE*/
+img{width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    border: 3px solid greenyellow;}
+
+/*MUDAR A PROPRIEDADE DA COR DO ELEMENTO AO PASSAR O MOUSE SOBRE ELE*/
+nav a:hover{color: red;}
+
+/*UMA CLASSE PARA CENTRALIZAR VARIOS ELEMENTOS NO MEIO DA TELA*/
+.center{text-align: center;}
+
+/*AJUSTANDO O TAMANHO DO TITULO H3*/
+h3{font-size: 25px;}
+
+/*CUSTOMIZAÇÃO DOS PARAGRAFOS*/
+p{font-weight: bolder;
+    font-size: 20px;
+    word-spacing: 10px;}
+
+/*UMA ID PRA DEIXAR O PDF NO TAMANHO CORRETO E BONITO*/
+embed#id-1{width: 75%;
+    height: 1000px;}
+
+/*UMA ID PRA MUDAR O COR DO MEU NOME*/
+h1#id-7{color: green;}
